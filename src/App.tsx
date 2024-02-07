@@ -13,7 +13,8 @@ function App() {
       <div>
         Testing building and functionality
       </div>
-      <div>a</div>   <button onClick={CounterAdd}>{count}</button>
+      <hr></hr>
+      <button onClick={CounterAdd}>{count}</button>
 
     </>
   )
