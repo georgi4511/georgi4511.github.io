@@ -5,8 +5,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const CounterAdd = () => {
-    let curr = count;
-    setCount(curr++)
+    setCount(count + 1)
   }
 
   return (
@@ -14,7 +13,8 @@ function App() {
       <div>
         Testing building and functionality
       </div>
-      <button onClick={CounterAdd}>{count}</button>
+      <div>a</div>   <button onClick={CounterAdd}>{count}</button>
+
     </>
   )
 
