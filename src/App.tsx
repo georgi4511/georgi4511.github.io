@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+      <img alt='sprite_image' src="src/assets/sprite.png"></img>
       <div>
         Testing building and functionality
       </div>
