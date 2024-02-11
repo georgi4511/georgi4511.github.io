@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import './App.css'
+import imgUrl from './images/sprite.png'
 
 function App() {
+
+
   const [count, setCount] = useState(0)
 
   const CounterAdd = () => {
@@ -10,7 +13,7 @@ function App() {
 
   return (
     <>
-      <img alt='sprite_image' src="src/assets/sprite.png"></img>
+      <img alt='sprite_image' src={imgUrl} id='sprite_image'></img>
       <div>
         Testing building and functionality
       </div>
